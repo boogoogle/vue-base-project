@@ -1,0 +1,75 @@
+variables:
+  BuildFileName: "ycloud-site-0.1-${CI_PIPELINE_ID}"
+  ServiceName: "ycloud-site"
+  ServiceVersion: "0.1" 
+  DockerImageName: "registry.yonghui.cn/ycloud/${ServiceName}:${ServiceVersion}-${CI_PIPELINE_ID}"
+
+cache:
+  key: "${CI_COMMIT_SHA}-${CI_PIPELINE_ID}"
+  paths:
+    - dist/
+    - node_modules/
+
+stages:
+  - build
+  - package
+  - deploy
+
+before_script:
+  - cd $CI_PROJECT_DIR
+
+build_js:
+  image: registry.yonghui.cn/ycloud/node:13.5.0-alpine3.11
+  stage: build
+  script:
+    - rm -rf /dist/*
+    - yarn && yarn build
+  tags:
+    - cmp
+  only:
+    - develop
+    - qa_test
+    - master
+    - /^feature/\d{4}_\d{2}$/
+
+build_image:
+  image: registry.yonghui.cn/public/docker:latest
+  stage: package
+  script:
+    - docker login -u ycloud -p Yc123456 http://registry.yonghui.cn
+    - docker build --no-cache -t $DockerImageName .
+    - docker push $DockerImageName
+  tags:
+    - cmp
+  only:
+    - develop
+    - qa_test
+    - master
+    - /^feature/\d{4}_\d{2}$/
+  retry: 2
+
+deploy_dev:
+  image: registry.yonghui.cn/public/centos7-kubectl:1
+  stage: deploy
+  environment: dev
+  cache:
+    policy: null
+  script:
+    - bash scripts/dev.sh ${ServiceName} ${DockerImageName}
+  tags:
+    - cmp
+  only:
+    - develop
+
+deploy_prod:
+  image: registry.yonghui.cn/public/centos7-kubectl:1
+  stage: deploy
+  environment: prod
+  cache:
+    policy: null
+  script:
+    - bash scripts/prod.sh ${ServiceName} ${DockerImageName}
+  tags:
+    - cmp
+  only:
+    - master

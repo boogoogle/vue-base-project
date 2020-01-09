@@ -1,0 +1,22 @@
+
+/* Colors
+-------------------------- */
+$--color-primary: #4881FF !default;
+
+/* Button
+-------------------------- */
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+
+$--input-height: 36px;
+$--input-medium-font-size: 12px;
+$--input-border-radius: 0;
+
+$--select-option-height: 30px;
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+
+

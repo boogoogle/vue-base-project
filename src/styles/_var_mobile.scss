@@ -1,0 +1,44 @@
+@function rem($px){
+    $rem : 36;
+    @return ($px/$rem) + rem;
+}
+
+@for $i from 1 through 30 {
+    .mt-#{$i} {
+        margin-top: rem($i) !important;
+    }
+    .mr-#{$i} {
+        margin-right: rem($i) !important;
+    }
+    .ml-#{$i} {
+        margin-left: rem($i) !important;
+    }
+    .mb-#{$i} {
+        margin-bottom: rem($i) !important;
+    }
+    .mg-#{$i} {
+      margin: rem($i) !important;
+    }
+}
+@for $i from 1 through 30 {
+    .pt-#{$i} {
+        padding-top: rem($i) !important;
+    }
+    .pr-#{$i} {
+        padding-right: rem($i) !important;
+    }
+    .pl-#{$i} {
+        padding-left: rem($i) !important;
+    }
+    .pb-#{$i} {
+        padding-bottom: rem($i) !important;
+    }
+    .pd-#{$i} {
+        padding: rem($i) !important
+    }
+}
+@for $i from 1 through 30 {
+    .f#{$i} {
+        font-size: rem($i) !important;
+    }
+}

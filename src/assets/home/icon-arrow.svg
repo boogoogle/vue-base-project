@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-默认" transform="translate(-362.000000, -1202.000000)" fill="#4881FF" fill-rule="nonzero">
+            <path d="M362.679908,1212.61589 C362.467769,1212.79267 362.439107,1213.10795 362.615889,1213.32009 C362.792671,1213.53223 363.107954,1213.56089 363.320092,1213.38411 L369.320092,1208.38411 C369.559953,1208.18423 369.559972,1207.81583 369.320133,1207.61592 L363.321417,1202.61592 C363.109297,1202.43912 362.794012,1202.46775 362.617207,1202.67987 C362.440403,1202.89199 362.469032,1203.20727 362.681152,1203.38408 L368.219024,1207.99996 L362.679908,1212.61589 Z" id="icon-arrow"></path>
+        </g>
+    </g>
+</svg>

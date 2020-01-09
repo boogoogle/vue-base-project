@@ -1,0 +1,52 @@
+#app {
+    min-width: 1200px;
+    font-size: 14px;
+  }
+.area-1200 {
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+.area__main {
+    display: flex;
+    flex-direction: column;
+}
+.header-bg {
+  height: 600px;
+  background-image: url("~@/assets/homepage-nav-background@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #191c23;
+}
+
+// 白色背景的section & 标题, 蓝色条
+.home-section-common {
+  padding-top: 96px;
+  padding-bottom: 114px;
+  .np_t{
+      font-size: 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 64px;
+  }
+  .np__spot {
+      background: #4881FF;
+      width: 40px;
+      height: 4px;
+      margin-top: 20px;
+  }
+}
+
+.bg-f579{
+  background-color: #F5F7F9;
+}
+
+
+.bg-white{
+  background-color: #ffffff;
+}
+
+.c-primary {
+  color: #4881FF;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon-check</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-默认" transform="translate(-186.000000, -2077.000000)" fill="#51CE1F" fill-rule="nonzero">
+            <path d="M187.707078,2084.29291 C187.31656,2083.9024 186.683406,2083.9024 186.292888,2084.29291 C185.902371,2084.68343 185.902371,2085.31657 186.292888,2085.70709 L191.292804,2090.70695 C191.775437,2091.18958 192.589067,2091.05755 192.894311,2090.44706 L198.89421,2078.44739 C199.141195,2077.95343 198.940974,2077.35277 198.447004,2077.10579 C197.953034,2076.85881 197.352371,2077.05903 197.105386,2077.55299 L191.725952,2088.31174 L187.707078,2084.29291 Z" id="icon-check"></path>
+        </g>
+    </g>
+</svg>

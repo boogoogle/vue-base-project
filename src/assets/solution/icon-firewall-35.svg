@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="35px" viewBox="0 0 28 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon-firewall-35</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="官网解决方案" transform="translate(-850.000000, -3515.000000)">
+            <g id="icon-firewall-35" transform="translate(850.000000, 3515.000000)">
+                <polygon id="Rectangle-22" fill="#A5C1FF" points="15 21 27 21 27 25.5385458 15 33"></polygon>
+                <path d="M1,6.98481263 C4.36755145,6.60796432 8.03421812,5.27969344 12,3 L12,14 L1,14 C1,12.9833069 1,10.6449111 1,6.98481263 Z" id="Rectangle-22" fill="#A5C1FF"></path>
+                <path d="M14,0 C19.4444444,3.11111111 24.1111111,4.66666667 28,4.66666667 L28,25.6666667 L28,25.6666667 L14,35 L0,25.6666667 L0,4.66666667 L0,4.66666667 C3.88888889,4.66666667 8.55555556,3.11111111 14,0 Z M14,2.77429199 C9.43670315,5.10076226 5.54781426,6.45628781 2.33333333,6.84086863 L2.33333333,6.84086863 L2.33333333,24.4824473 L14,32.1103923 L25.6666667,24.4766661 L25.6666667,24.4766661 L25.6666667,6.84086863 C22.5007256,6.45975325 18.6118368,5.1042277 14,2.77429199 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <polygon id="Path-2" fill="#FFFFFF" points="15 8 18 8 14 14.0023112 19 15.2023112 12 26 11.4371941 24.8391518 15 16.4 10 15.2"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
