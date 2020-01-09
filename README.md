@@ -24,6 +24,3 @@ yarn run test
 ```
 yarn run lint
 ```
-
-### 介绍wiki
-  - [产品&解决方案](http://wiki.dev.yonghui.cn/pages/viewpage.action?pageId=14549323)
