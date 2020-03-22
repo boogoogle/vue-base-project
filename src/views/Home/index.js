@@ -1,2 +1,2 @@
-import ele from "./home.vue";
+import ele from "./Home.vue";
 export default ele;
